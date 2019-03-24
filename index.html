@@ -1,0 +1,75 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="assets\css\style.css" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+    <!--You'll create a trivia form with multiple choice or true/false options (your choice).
+        The player will have a limited amount of time to finish the quiz. 
+        The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
+        Don't let the player pick more than one answer per question.
+        Don't forget to include a countdown timer.-->
+    <h1>Random Quiz Questions!!!! </h1>
+    <br>
+    <br>
+    <br>
+    <div id="wrapper">
+        <h3>Countdown</h3>
+        <div id="displayTimer"></div>
+        <form id="startForm" name="startForm">
+            <button class="button">start counting</button>
+        </form>
+
+        <br>
+        <br>
+        <form id="quiz" name="quiz">
+
+            <p>Who is the best Batman?</p>
+            <input type="radio" id="mc" name="question1" value="Adam West"> Adam West<br>
+            <input type="radio" id="mc" name="question1" answer="correct" value="Michael Keaton"> Michael Keaton<br>
+            <input type="radio" id="mc" name="question1" value="Val Kilmer"> Val Kilmer<br>
+            <input type="radio" id="mc" name="question1" value="George Clooney"> George Clooney<br>
+            <input type="radio" id="mc" name="question1" value="Christian Bale"> Christian Bale<br>
+            <input type="radio" id="mc" name="question1" value="Ben Affleck"> Ben Affleck<br>
+
+            <p>America's Finest City?</p>
+            <input type="radio" id="mc" name="question2" value="San Diego"> San Diego<br>
+            <input type="radio" id="mc" name="question2" value="Vancouver"> Vancouver<br>
+            <input type="radio" id="mc" name="question2" value="Mexico City"> Mexico City<br>
+            <input type="radio" id="mc" name="question2" answer="correct" value="Monterrey"> Monterrey<br>
+
+            <p>America's sport?</p>
+            <input type="radio" id="mc" name="question3" value="pilattes"> pilattes<br>
+            <input type="radio" id="mc" name="question3" value="Cornhole"> Cornhole<br>
+            <input type="radio" id="mc" name="question3" answer="correct" value="Kickball"> Kickball<br>
+            <input type="radio" id="mc" name="question3" value="Advanced pilattes"> Advanced pilattes<br>
+
+            <p>Best way to Rage quit in video game?</p>
+            <input type="radio" id="mc" name="question4" answer="correct" value="Throw controller at screen"> Throw
+            Controller at screen<br>
+            <input type="radio" id="mc" name="question4" value="Cry in pillow"> Cry in pillow<br>
+            <input type="radio" id="mc" name="question4" value="Yell and curse"> Yell and curse<br>
+            <input type="radio" id="mc" name="question4" value="Wave a fist in the air at the heavens"> Wave a fist in
+            the air at the heavens<br>
+
+
+        </form>
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="assets\javascript\app.js"></script>
+</body>
+
+</html>
