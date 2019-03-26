@@ -1,0 +1,7 @@
+body {
+        font-family: cursive;
+}
+
+#quiz {
+    visibility: hidden;
+}

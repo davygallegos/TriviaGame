@@ -5,10 +5,11 @@
     - if time allows create backrounds and fancy it up*/
    
 // setTimeout(sixtySeconds, 10000 * 6);
-var timer = document.getElementById('#displayTimer')
+var timer = document.getElementById('#displayTimer');
 var counter = 60;
-var correctAns
-var wrongAns
+var correctAns = 0;
+var wrongAns = 0;
+var hideBody = document.getElementById("#afterSubmit).style.visibility=visible;
 
 $('.button').on('click',function(event) {
     event.preventDefault()
@@ -31,7 +32,11 @@ $('.button').on('click',function(event) {
     //jquery empty or add classes 
 });
 
-function checkAns(params) {
-    
-    
+function check(){
+    document.getElementById("afterSubmit").style.visibility = "visible"; 
+ if (question1 === answer)   {
+    (correctAns++)
+ } 
+ console.log(correctAns)
 }
+checkAns()
